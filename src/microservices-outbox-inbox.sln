@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2186AB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InOut.Shared", "Shared\InOut.Shared\InOut.Shared.csproj", "{BB38A93B-1676-4FCB-9B77-CFDD282EE23E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4E30FF4B-6EB1-4AF9-9D76-41FF3716E7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InOut.OrderAPI", "Services\InOut.OrderAPI\InOut.OrderAPI.csproj", "{DA7ACDEA-B669-4DB0-8F59-58D8A9B55D6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{BB38A93B-1676-4FCB-9B77-CFDD282EE23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB38A93B-1676-4FCB-9B77-CFDD282EE23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB38A93B-1676-4FCB-9B77-CFDD282EE23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7ACDEA-B669-4DB0-8F59-58D8A9B55D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7ACDEA-B669-4DB0-8F59-58D8A9B55D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7ACDEA-B669-4DB0-8F59-58D8A9B55D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7ACDEA-B669-4DB0-8F59-58D8A9B55D6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BB38A93B-1676-4FCB-9B77-CFDD282EE23E} = {2186ABB2-B86A-4F76-8624-7A44E81152DA}
+		{DA7ACDEA-B669-4DB0-8F59-58D8A9B55D6E} = {4E30FF4B-6EB1-4AF9-9D76-41FF3716E7F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C0CE5F78-308C-4E8E-AC1B-64CA75F27D19}
