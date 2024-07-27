@@ -12,7 +12,7 @@ namespace InOut.OrderAPI.Controllers;
 [ApiController]
 public class OrdersController(OrderDbContext _orderDbContext, ISendEndpointProvider _sendEndpointProvider) : ControllerBase
 {
-
+    [HttpPost("create-order")]
     public async Task<IActionResult> CreateOrder(CreateOrderDto createOrderDto)
     {
         Order order = new()
