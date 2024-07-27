@@ -1,0 +1,6 @@
+@InOut.StockAPI_HostAddress = http://localhost:5158
+
+GET {{InOut.StockAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
